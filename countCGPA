@@ -1,0 +1,18 @@
+Name=input("Enter your Name\n")
+Regno=int(input("Enter your Regno\n"))
+print("My name is",Name)
+print("regno:",Regno)
+CA=int(input("enter your CA marks:"))
+MTE=int(input("enter your MTE marks:"))
+ETE=int(input("enter your ETE marks:"))
+ATT=int(input("enter your ATT marks:"))
+CAwtg=(CA/100)*25
+MTEwtg=(MTE/40)*25
+ETEwtg=(ETE/70)*50
+ATTwtg=(ATT/5)*5
+print("marks of CA",CAwtg)
+print("marks of MTE",MTEwtg)
+print("marks of ETE",ETEwtg)
+print("marks of ATT",ATTwtg)
+sum= CAwtg+ MTEwtg+ ETEwtg+ ATTwtg
+print("total marks", sum)
