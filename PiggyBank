@@ -1,0 +1,21 @@
+print("*******************************************************")
+
+print("Piggy Bank")
+
+print("*******************************************************")
+
+a=int(input("enter the number of coins for 10rs"))
+mula=a*10
+b=int(input("enter the number of coins for 5rs"))
+mulb=b*5
+c=int(input("enter the number of coins for 2rs"))
+mulc=c*2
+d=int(input("enter the number of coins for 1rs"))
+muld=d*1
+
+print("Total of 10rs=", mula)
+print("Total of 5rs=", mulb)
+print("Total of 2rs=", mulc)
+print("Total of 1rs=", muld)
+sum= mula+ mulb+ mulc+ muld
+print("total amount",sum)
